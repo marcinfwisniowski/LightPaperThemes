@@ -1,0 +1,87 @@
+# Teranota
+# Editor's light theme for the LightPaper APP
+# Author: Marcin Wiśniowski <marcin.wisniowski@teradata.com>
+# URL: https://github.com/marcinfwisniowski/LightPaperThemes
+
+editor
+foreground: 3C3C3B
+background: FFFFFF
+caret: 3C3C3B
+font-family: Consolas
+
+editor-selection
+background: E8E8E8
+foreground: 3C3C3B
+
+H1
+foreground: EC881D
+font-style: bold
+font-size: 18pt
+
+H2
+foreground: EC881D
+font-style: bold
+font-size: 16pt
+
+H3
+foreground: EC881D
+font-size: 15pt
+
+H4
+foreground: EC881D
+font-size: 15pt
+
+H5
+foreground: EC881D
+font-size: 15pt
+
+H6
+foreground: EC881D
+font-size: 15pt
+
+EMPH
+foreground: 0088A8
+font-style: italic
+
+STRONG
+foreground: CD391F
+font-style: bold
+
+HRULE
+foreground: 888888
+
+LIST_BULLET
+foreground: 5F6062
+
+LIST_ENUMERATOR
+foreground: 5F6062
+
+LINK
+foreground: 0079DB
+
+AUTO_LINK_URL
+foreground: 0079DB
+
+AUTO_LINK_EMAIL
+foreground: 0079DB
+
+REFERENCE
+foreground: 888888
+
+IMAGE
+foreground: 5F6062
+
+CODE
+foreground: 703092
+
+VERBATIM
+foreground: 703092
+
+HTML_ENTITY
+foreground: D8D8D8
+
+COMMENT
+foreground: D8D8D8
+
+BLOCKQUOTE
+foreground: CD391F
