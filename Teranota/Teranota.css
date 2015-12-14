@@ -5,7 +5,7 @@ Author: Marcin Wiśniowski <marcin.wisniowski@teradata.com>
 URL: https://github.com/marcinfwisniowski/LightPaperThemes
 */
 
-:root{--theme-orange:#EC881D;--theme-blue:#0079DB;--theme-red:#CD391F;--themr-ocean:#0088A8;--theme-purple:#703092;--theme-lightgrey:#D8D8D8;--theme-grey:#5F6062;--theme-darkgrey:#3C3C3B}
+:root{--theme-orange:#EC881D;--theme-blue:#0079DB;--theme-red:#CD391F;--theme-ocean:#0088A8;--theme-purple:#703092;--theme-lightgrey:#D8D8D8;--theme-grey:#5F6062;--theme-darkgrey:#3C3C3B}
 body{font-family:"Century Gothic";font-size:10pt;line-height:1.6;color:#3C3C3B;padding:10px 30px;background-color:#fff}
 p{text-align:justify}
 a,a:visited,a:active{color:#0079DB;text-decoration:none}
@@ -27,6 +27,7 @@ table tr{border-top:1px solid #5F6062;background-color:#fff;margin:0;padding:0}
 table tr:nth-child(2n){background-color:#D8D8D8}
 table tr th,table tr td{text-align:left;margin:0;padding:6px 13px;border:1px solid #BBB}
 table tr th{font-weight:700;background:#5F6062;color:#FFF;border:1px solid #5F6062}
+img{margin:0 auto 24px;display:block; max-width:600px;padding:5px;}
 ul,ol{padding-left:30px}
 ul :first-child,ol :first-child{margin-top:0}
 ul ul > li,ol ul > li{list-style:square inside url(data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==);font-size:9pt}
