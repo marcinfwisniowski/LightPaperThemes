@@ -1,0 +1,87 @@
+# DE-Mobile
+# Editor's light theme for the LightPaper APP styled for T-Mobile
+# Author: Marcin Wiśniowski <marcin.wisniowski@databros.it>
+# URL: https://github.com/marcinfwisniowski/LightPaperThemes
+
+editor
+foreground: 4B4B4B
+background: FFFFFF
+caret: 4B4B4B
+font-family: Consolas
+
+editor-selection
+background: EDEDED
+foreground: 4B4B4B
+
+H1
+foreground: E20074
+font-style: bold
+font-size: 18pt
+
+H2
+foreground: E20074
+font-style: bold
+font-size: 16pt
+
+H3
+foreground: E20074
+font-size: 15pt
+
+H4
+foreground: E20074
+font-size: 15pt
+
+H5
+foreground: E20074
+font-size: 15pt
+
+H6
+foreground: E20074
+font-size: 15pt
+
+EMPH
+foreground: 53BAF2
+font-style: italic
+
+STRONG
+foreground: 1063AD
+font-style: bold
+
+HRULE
+foreground: 7C7C7C
+
+LIST_BULLET
+foreground: BFCB44
+
+LIST_ENUMERATOR
+foreground: BFCB44
+
+LINK
+foreground: FF9A1E
+
+AUTO_LINK_URL
+foreground: FF9A1E
+
+AUTO_LINK_EMAIL
+foreground: FF9A1E
+
+REFERENCE
+foreground: 7C7C7C
+
+IMAGE
+foreground: FFD329
+
+CODE
+foreground: 1BADA2
+
+VERBATIM
+foreground: 1BADA2
+
+HTML_ENTITY
+foreground: D0D0D0
+
+COMMENT
+foreground: D0D0D0
+
+BLOCKQUOTE
+foreground: E20074

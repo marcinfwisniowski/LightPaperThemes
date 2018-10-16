@@ -1,0 +1,60 @@
+/*
+Theme: DE-mobile 
+Name: T-mobile like document theme.
+Author: Marcin Wiśniowski <marcin.wisniowski@databros.it>
+URL: https://github.com/marcinfwisniowski/LightPaperThemes
+*/
+:root{--theme-magenta:#E20074;--theme-grey-6:#D0D0D0;--theme-grey-5:#4B4B4B;--theme-grey-4:#EDEDED;--theme-grey-3:#6D6C6C;--theme-grey-2:#7C7C7C;--theme-grey-1:#A4A4A4;--theme-yellow:#FFD329;--theme-orange:#FF9A1E;--theme-light-blue:#53BAF2;--theme-dark-blue:#1063AD;--theme-petrol:#1BADA2;--theme-green:#BFCB44;}
+body{font-family:"Tele-GroteskEENor","Tele-GroteskNor";font-size:10pt;line-height:1.6;color:#000000;padding:10px 30px;background-color:#fff}
+p{text-align:justify}
+a,a:visited,a:active{color:#53BAF2;text-decoration:none}
+a:hover{border-bottom:1px dotted #FF9A1E}
+a.absent{color:#FF9A1E}
+p a{margin:0 2px}
+h1,h2,h3,h4,h5,h6{-webkit-font-smoothing:antialiased;font-weight:bold;}
+h2,h3,h4,h5,h6{margin:12px 0 8px;}
+h2{font-weight:normal;}
+h1{font-size:28pt;margin:10pt 0pt;padding:0 0 4pt;page-break-before:always;color:#6D6C6C;}
+h1:first-of-type{page-break-before:avoid}
+h2{font-size:24pt;color:#E20074;}
+h3{font-size:16pt;}
+h4{font-size:14pt;}
+h5{font-size:12pt;color:#4B4B4B;}
+h6{font-size:10pt;color:#6D6C6C;}
+table{padding:0;border-collapse:collapse;width:100%}
+table tr{border-top:1px solid #7C7C7C;background-color:#fff;margin:0;padding:0}
+table tr:nth-child(2n){background-color:#EDEDED;}
+table tr th,table tr td{text-align:left;margin:0;padding:6px 13px;border:1px solid #BBB}
+table tr th{font-weight:bold;background:#E20074;color:#FFF;border:1px solid #E20074}
+img{margin:0 auto 24px;display:block; max-width:600px;padding:5px;}
+ul,ol{padding-left:30px}
+ul :first-child,ol :first-child{margin-top:0}
+ul ul > li,ol ul > li, ul > li{list-style:square inside;font-size:9pt}
+li{line-height:150%;margin-bottom:5px;margin-top:0}
+dl{padding:0}
+dl dt{font-weight:700;font-style:italic;padding:0;margin:12px 0 8px}
+dl dt:first-child{padding:0}
+dl dt > :first-child{margin-top:0}
+dl dt > :last-child{margin-bottom:0}
+dl dd{margin:0 0 15px;padding:0 15px}
+dl dd > :first-child{margin-top:0}
+dl dd > :last-child{margin-bottom:0}
+code,pre,tt{border:1px solid #E20074;background-color:#EDEDED;font-family:Consolas;font-size:8pt}
+code,tt{margin:0 2px;padding:0 5px;white-space:nowrap}
+pre{line-height:19px;overflow:auto;padding:6px 10px; color:#4B4B4B}
+pre code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
+pre code,pre tt{background-color:transparent;border:none}
+code[class*="language-"],pre[class*="language-"]{background:#EDEDED!important}
+:not(pre) > code[class*="language-"],pre[class*="language-"]{background:#EDEDED!important}
+blockquote{border-left:3px solid #D0D0D0;color:#5F6062;margin:0 10px;padding:0 15px}
+blockquote > :first-child{margin-top:0}
+blockquote > :last-child{margin-bottom:0}
+mark{background-color:#FF9A1E;color:#FFFFFF;font-weight:bold;}
+hr{border:none;border-bottom:3px solid #E20074;}
+@media screen and (min-width: 914px) {
+body{width:854px;margin:0 auto}
+}
+@media print {
+body{-webkit-print-color-adjust:exact}
+table,pre{page-break-inside:avoid}
+}
