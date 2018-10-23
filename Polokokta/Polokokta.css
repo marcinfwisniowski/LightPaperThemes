@@ -4,14 +4,7 @@ Name: Polkomtel like document theme.
 Author: Marcin Wiśniowski <marcin.wisniowski@databros.it>
 URL: https://github.com/marcinfwisniowski/LightPaperThemes
 */
-:root{
-	--theme-green:#34a734;
-	--theme-green-dark:#0f3f1c;
-	--theme-red:#e00023;
-	--theme-black:#000000;
-	--theme-white:#ffffff;
-	--theme-blue:#5ab1d2;
-}
+:root{--theme-green:#34a734;--theme-green-dark:#0f3f1c;--theme-red:#e00023;--theme-black:#000000;--theme-white:#ffffff;--theme-blue:#5ab1d2;}
 body{font-family:Montserrat;font-size:10pt;line-height:1.6;color:#000000;padding:10px 30px;background-color:#fff}
 p{text-align:justify}
 a,a:visited,a:active{color:#e00023;text-decoration:none}
@@ -28,10 +21,10 @@ h4{font-size:14pt;}
 h5{font-size:12pt;}
 h6{font-size:10pt;}
 table{padding:0;border-collapse:collapse;width:100%}
-table tr{border-top:1px solid #000;background-color:#fff;margin:0;padding:0}
+table tr{border-top:1px solid #888;background-color:#fff;margin:0;padding:0}
 table tr:nth-child(2n){background-color:#DEDEDE;}
-table tr th,table tr td{text-align:left;margin:0;padding:6px 13px;border:1px solid #000}
-table tr th{font-weight:bold;background:#000;color:#FFF;border:1px solid #E000}
+table tr th,table tr td{text-align:left;margin:0;padding:6px 13px;border:1px solid #888}
+table tr th{font-weight:bold;background:#0f3f1c;color:#FFF;border:1px solid #000;}
 img{margin:0 auto 24px;display:block; max-width:600px;padding:5px;}
 ul,ol{padding-left:30px;}
 ul :first-child,ol :first-child{margin-top:0}
