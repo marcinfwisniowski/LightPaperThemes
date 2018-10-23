@@ -1,0 +1,67 @@
+/*
+Theme: Polokokta 
+Name: Polkomtel like document theme.
+Author: Marcin Wiśniowski <marcin.wisniowski@databros.it>
+URL: https://github.com/marcinfwisniowski/LightPaperThemes
+*/
+:root{
+	--theme-green:#34a734;
+	--theme-green-dark:#0f3f1c;
+	--theme-red:#e00023;
+	--theme-black:#000000;
+	--theme-white:#ffffff;
+	--theme-blue:#5ab1d2;
+}
+body{font-family:Montserrat;font-size:10pt;line-height:1.6;color:#000000;padding:10px 30px;background-color:#fff}
+p{text-align:justify}
+a,a:visited,a:active{color:#e00023;text-decoration:none}
+a:hover{border-bottom:1px solid #e00023;}
+a.absent{color:#5ab1d2;}
+p a{margin:0 2px}
+h1,h2,h3,h4,h5,h6{-webkit-font-smoothing:antialiased;font-weight:bold;}
+h2,h3,h4,h5,h6{margin:12px 0 8px;}
+h1{font-size:28pt;margin:10pt 0pt;padding:0 0 4pt;page-break-before:always;color:#6D6C6C; border-bottom:2px solid #0f3f1c;}
+h1:first-of-type{page-break-before:avoid}
+h2{font-size:24pt;color:#34a734;}
+h3{font-size:16pt;}
+h4{font-size:14pt;}
+h5{font-size:12pt;}
+h6{font-size:10pt;}
+table{padding:0;border-collapse:collapse;width:100%}
+table tr{border-top:1px solid #000;background-color:#fff;margin:0;padding:0}
+table tr:nth-child(2n){background-color:#DEDEDE;}
+table tr th,table tr td{text-align:left;margin:0;padding:6px 13px;border:1px solid #000}
+table tr th{font-weight:bold;background:#000;color:#FFF;border:1px solid #E000}
+img{margin:0 auto 24px;display:block; max-width:600px;padding:5px;}
+ul,ol{padding-left:30px;}
+ul :first-child,ol :first-child{margin-top:0}
+ul ul > li,ol ul > li, ul > li{list-style:circle inside;font-size:9pt}
+li{line-height:150%;margin-bottom:5px;margin-top:0}
+dl{padding:0}
+dl dt{font-weight:700;font-style:italic;padding:0;margin:12px 0 8px}
+dl dt:first-child{padding:0}
+dl dt > :first-child{margin-top:0}
+dl dt > :last-child{margin-bottom:0}
+dl dd{margin:0 0 15px;padding:0 15px}
+dl dd > :first-child{margin-top:0}
+dl dd > :last-child{margin-bottom:0}
+code,pre,tt{border:1px solid ##0f3f1c;background-color:#DEDEDE;font-family:Consolas;font-size:8pt;color:#000000;}
+code,tt{margin:0 2px;padding:0 5px;white-space:nowrap}
+pre{line-height:19px;overflow:auto;padding:6px 10px;}
+pre code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
+pre code,pre tt{background-color:transparent;border:none}
+code[class*="language-"],pre[class*="language-"]{background:#DEDEDE!important}
+:not(pre) > code[class*="language-"],pre[class*="language-"]{background:#DEDEDE!important;}
+:not(pre) > code{border:none;background-color:#DEDEDE;color:#000000;padding:4px;}
+blockquote{border-left:3px solid #5ab1d2;color:#000;margin:0 10px;padding:0 15px}
+blockquote > :first-child{margin-top:0}
+blockquote > :last-child{margin-bottom:0}
+mark{background-color:#FF9A1E;color:#FFFFFF;font-weight:bold;}
+hr{border:none;border-bottom:3px solid #0f3f1c;}
+@media screen and (min-width: 914px) {
+body{width:854px;margin:0 auto}
+}
+@media print {
+body{-webkit-print-color-adjust:exact}
+table,pre{page-break-inside:avoid}
+}
